@@ -72,3 +72,7 @@ that you will share with other people. This will allow other people to more
 easily decipher what buttons are used for in a profile. Specifying action names
 can also be a helpful reminder for yourself in order to document a more complex
 action.
+
+There is an example of adding description for button:
+
+![Action description](https://github.com/juliagoda/antimicroX-profiles/blob/master/images/add-action-description.png?raw=true "Action description")
