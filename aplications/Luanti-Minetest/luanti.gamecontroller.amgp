@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="19" appversion="3.5.1">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Microsoft Xbox Series Controller</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>0300f5a35e040000120b00001705000011182834</uniqueID>
+    <profilename>Luanti / Minetest</profilename>
+    <stickAxisAssociation index="2" xAxis="3" yAxis="4"/>
+    <stickAxisAssociation index="1" xAxis="1" yAxis="2"/>
+    <vdpadButtonAssociations index="1">
+        <vdpadButtonAssociation axis="0" button="12" direction="1"/>
+        <vdpadButtonAssociation axis="0" button="13" direction="4"/>
+        <vdpadButtonAssociation axis="0" button="14" direction="8"/>
+        <vdpadButtonAssociation axis="0" button="15" direction="2"/>
+    </vdpadButtonAssociations>
+    <names>
+        <controlstickname index="2">Stick 2</controlstickname>
+        <controlstickname index="1">Stick 1</controlstickname>
+        <vdpadname index="1">Precise mouse move</vdpadname>
+    </names>
+    <sets>
+        <set index="1">
+            <name>Primary</name>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <stick index="1">
+                <stickbutton index="1">
+                    <actionname>Up</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x57</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <actionname>Right</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x44</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <actionname>Down</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x53</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <actionname>Left</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x41</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <dpadbutton index="1">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Heads-up Display</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x43</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="3">
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Next Item</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x4e</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Drop stack</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x51</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="6">
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="9">
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Previous Item</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x50</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="12">
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+            </dpad>
+            <trigger index="6">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <actionname>Dig / Attack</actionname>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <trigger index="5">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <actionname>Use Item</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <button index="10">
+                <actionname>Hotbar previous item</actionname>
+                <slots>
+                    <slot>
+                        <code>0x42</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <actionname>Sneak</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="11">
+                <actionname>Hotbar next item</actionname>
+                <slots>
+                    <slot>
+                        <code>0x4e</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <actionname>Sneak</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <actionname>Jump</actionname>
+                <slots>
+                    <slot>
+                        <code>0x20</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <setselect>2</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Open Inventory</actionname>
+                <slots>
+                    <slot>
+                        <code>0x49</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <setselect>2</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Craft</actionname>
+                <slots>
+                    <slot>
+                        <code>3</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="6">
+                <setselect>3</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Pause menu</actionname>
+            </button>
+            <button index="5">
+                <actionname>Minimap</actionname>
+                <slots>
+                    <slot>
+                        <code>0x56</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="8">
+                <actionname>Run</actionname>
+                <slots>
+                    <slot>
+                        <code>0x45</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <setselect>3</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Pause Menu</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="2">
+            <name>Inventory</name>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <stick index="1">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <actionname>Mouse Up</actionname>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <actionname>Mouse Right</actionname>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <actionname>Mouse Down</actionname>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <actionname>Mouse Left</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <dpadbutton index="1">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="3">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="6">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="9">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="12">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+            </dpad>
+            <trigger index="6">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <trigger index="5">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <button index="10">
+                <actionname>Sneak</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Exit inventory</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <actionname>Select stack</actionname>
+                <slots>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <actionname>Quick move stack</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <actionname>Split stack</actionname>
+                <slots>
+                    <slot>
+                        <code>3</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="6">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Primary keymap</actionname>
+            </button>
+            <button index="5">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Primary keymap</actionname>
+            </button>
+            <button index="8">
+                <toggle>true</toggle>
+            </button>
+            <button index="7">
+                <actionname>Pause Menu</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+        <set index="3">
+            <name>Pause</name>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <stick index="1">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <actionname>Mouse Up</actionname>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <actionname>Mouse Right</actionname>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <actionname>Mouse Down</actionname>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <actionname>Mouse Left</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <dpadbutton index="1">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="3">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="6">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="9">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="12">
+                    <mousespeedx>18</mousespeedx>
+                    <mousespeedy>18</mousespeedy>
+                    <mouseacceleration>linear</mouseacceleration>
+                    <wheelspeedy>5</wheelspeedy>
+                </dpadbutton>
+            </dpad>
+            <trigger index="6">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <trigger index="5">
+                <deadZone>2000</deadZone>
+                <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <button index="2">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Exit menu</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Click</actionname>
+                <slots>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="6">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Primary keymap</actionname>
+            </button>
+            <button index="5">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Primary keymap</actionname>
+            </button>
+            <button index="8">
+                <toggle>true</toggle>
+            </button>
+            <button index="7">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Exit Menu</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</gamecontroller>
